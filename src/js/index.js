@@ -1,5 +1,6 @@
 const personagens = document.querySelectorAll(".personagem");
 
+// percorrer cada personagem
 personagens.forEach((personagem) => {
   personagem.addEventListener("mouseenter", () => {
     const idSelecionado = personagem.attributes.id.value;
